@@ -1,0 +1,6 @@
+Flask
+Flask-Cors
+PyPDF2
+SQLAlchemy
+psycopg2-binary
+google-generativeai

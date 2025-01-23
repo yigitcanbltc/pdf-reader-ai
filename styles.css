@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* Arkaplan beyaz */
+    color: #000; /* Metin rengi siyah */
+}
+
+.chat-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.chat-icon {
+    font-size: 40px;
+    cursor: pointer;
+    background-color: #333;
+    border-radius: 50%;
+    padding: 15px;
+    text-align: center;
+}
+
+.chat-box {
+    display: none;
+    position: absolute;
+    bottom: 80px;
+    right: 0;
+    width: 350px;
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+.chat-header {
+    background-color: #222;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+.chat-content {
+    padding: 10px;
+    max-height: 350px;
+    overflow-y: auto;
+    color: #fff;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center; /* Ortala */
+    align-items: center; /* Ortala */
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#userInput {
+    width: 200px;
+    padding: 10px;
+    background-color: #222;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+}
+
+#sendBtn {
+    padding: 10px 15px;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#sendBtn:hover {
+    background-color: #555;
+}
+
+#userInput:focus, #sendBtn:focus {
+    outline: none;
+}
+
+/* Mesaj balonları ve simgeler */
+.message {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.message.robot {
+    justify-content: flex-start;
+}
+
+.message.user {
+    justify-content: flex-end;
+}
+
+.message .message-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+}
+
+.message .message-text {
+    max-width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #444;
+    color: white;
+}
+
+.message.robot .message-text {
+    background-color: #666;
+}
+
+.message.user .message-text {
+    background-color: #222;
+}
