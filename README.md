@@ -23,7 +23,7 @@ Follow these steps to set up the project on your local machine:
 ### Steps
 1. Clone this repository:
     ```bash
-    git clone <repository_url>
+    git clone <[repository_url](https://github.com/yigitcanbltc/pdf-reader-ai.git)>
     cd <repository_name>
     ```
 
