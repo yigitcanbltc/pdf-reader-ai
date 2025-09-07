@@ -50,7 +50,7 @@ Follow these steps to set up the project on your local machine:
     python main.py
     ```
 
-5. Upload a PDF file through the http://127.0.0.1:5000.
+5. Upload a PDF file through the on your local host.
 
 6. Open index.html and test application.
 
